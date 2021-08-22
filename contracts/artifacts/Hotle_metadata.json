@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/hotel.sol": "Hotle"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/hotel.sol": {
+			"keccak256": "0x07f67482c00b084e573257defde760cc800b475dff1fd567b66479a32bf8d687",
+			"urls": [
+				"bzz-raw://532455ee3cc6e78405e98e142ccff96bb9ee4b273d45efe011cda677e737e837",
+				"dweb:/ipfs/QmWYGLuce35bz8W7xSkhEYZT2HJ4quyfphhxxzNWaCRRRZ"
+			]
+		}
+	},
+	"version": 1
+}

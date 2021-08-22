@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "activate",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "isActive",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "state",
+				"outputs": [
+					{
+						"internalType": "enum Mycontract.State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/artifacts/Enum.sol": "Mycontract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/artifacts/Enum.sol": {
+			"keccak256": "0x25c4bbd1a4db74ffb205cfa5b477e08e859d902b5bf48238af68b6b7b5225eec",
+			"urls": [
+				"bzz-raw://676b5d6c49ba9ade67be8c2911796d1c3483ed78a43fb8394ea790a7c18d5fea",
+				"dweb:/ipfs/QmQZt43aWLhXv4rBkCrHMAnFvgsxYPEk1w5QXW9KP4kccj"
+			]
+		}
+	},
+	"version": 1
+}

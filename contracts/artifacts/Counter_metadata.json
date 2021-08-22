@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "incrementCount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/First.sol": "Counter"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/First.sol": {
+			"keccak256": "0x2cdca875cf8f94eca64bc456a14b268cc98568ed0936b55e81e6653668b6ae4d",
+			"urls": [
+				"bzz-raw://8c0e07ae3e937119b21407770ad762045ddf354a5bed4814b76e0d7b92a44de7",
+				"dweb:/ipfs/QmZxbZh1UappDraBqcZoCJcHwV3n9X81E2c44GHRMWi865"
+			]
+		}
+	},
+	"version": 1
+}
